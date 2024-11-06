@@ -15,19 +15,19 @@ router.get('/Home', function(req, res, next) {
 });
 
 router.get('/AboutMe', function(req, res, next) {
-  res.render('index', {
+  res.render('about', {
     title: 'About me',
   });
 });
 
 router.get('/Projects', function(req, res, next) {
-  res.render('index', {
+  res.render('projects', {
     title: 'My Projects',
   });
 });
 /* Get Contact Me page */
 router.get('/ContactMe', function(req, res, next) {
-  res.render('index', {
+  res.render('contactme', {
     title: 'Contact me',
   });
 });
